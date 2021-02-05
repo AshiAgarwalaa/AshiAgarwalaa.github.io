@@ -279,10 +279,10 @@ font-variant: small-caps;
 
 .footer p{
 	font-weight: 400;
-	font-size: 15px;
+	font-size: 18px;
 	color: #fff;
-	padding-right: 15px;
-	padding-left: 15px; 
+	padding-right: 20px;
+	padding-left: 20px; 
 }
 
 /* Media Queries */
@@ -302,10 +302,4 @@ font-variant: small-caps;
   .content{
     padding: 100px 50px;
   }
-  #home{background-position:center;}
-  #main3{
-	float:none;
-	width:100%;
-	padding:0;
-	text-align: center;}
 }
