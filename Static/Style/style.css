@@ -33,7 +33,7 @@ browser by considering the browser as its parent element.
 and header has child element. #242539;*/
 .header{
 	width: 100%;
-	min-height: 60px;
+	height: 60px;
 	background: #154360;
 	position: fixed;
 	top: 0;
