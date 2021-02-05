@@ -264,8 +264,6 @@ font-variant: small-caps;
   }
 }
 
-
-
  
 .footer{
 	width: 100%;
@@ -292,9 +290,9 @@ font-variant: small-caps;
   }
   #home{background-position:center;}
   #main3{
-	float:none;
-	width:100%;
-	padding:0;
+	float:center;
+	width:70%;
+	padding:auto;
 	text-align: center;}
 }
 
