@@ -33,11 +33,12 @@ browser by considering the browser as its parent element.
 and header has child element. #242539;*/
 .header{
 	width: 100%;
-	height: 60px;
+	min-height: 60px;
 	background: #154360;
 	position: fixed;
 	top: 0;
 	left: 0;
+	overflow: auto;
 }
 
 /* Set the unordered list's width and margin's top, bottom values to 
@@ -75,7 +76,6 @@ to left and style them to enhance. */
 .container{
 	width: 100%;
 	margin-top: 60px;
-	border-style: solid;
 }
 /* Style the content div elements. */
 .content{
@@ -102,7 +102,7 @@ different background color for the even content div elements. */
 #home{
 	background-image:url('../Images/OIP.jpg');
 	background-position:left;
-	min-height:595px;
+	min-height:590px;
 	overflow: auto;
 	max-width: 100%;
 }
@@ -290,10 +290,22 @@ font-variant: small-caps;
   .content{
     padding: 100px 150px;
   }
+  #home{background-position:center;}
+  #main3{
+	float:none;
+	width:100%;
+	padding:0;
+	text-align: center;}
 }
 
 @media screen and (max-width: 650px){
   .content{
     padding: 100px 50px;
   }
+  #home{background-position:center;}
+  #main3{
+	float:none;
+	width:100%;
+	padding:0;
+	text-align: center;}
 }
