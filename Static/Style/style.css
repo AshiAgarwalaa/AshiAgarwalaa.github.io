@@ -100,7 +100,7 @@ different background color for the even content div elements. */
 }
 
 #home{
-	background-image:url('../Images/OIP.jpg');
+	background-image:url('../Images/OIP3.jpg');
 	background-position:left;
 	min-height:590px;
 	overflow: auto;
@@ -192,12 +192,10 @@ font-variant: small-caps;
 	height: 200px;
 	margin: 25px 0;
 	padding: 10px 2%;
-	background: #A3E4D7;
-	border-color: #17A589;
 	box-sizing: border-box;
-	border-style: none none none solid;
-	border-width: 5px;
+	border-style: outset;
 	overflow: auto;
+	animation: pulse 5s infinite;
 }
 
 #sidebar img{
