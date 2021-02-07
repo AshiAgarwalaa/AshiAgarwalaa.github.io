@@ -104,7 +104,7 @@ different background color for the even content div elements. */
 	background-position:left;
 	min-height:590px;
 	overflow: auto;
-	max-width: 100%;
+	width: 100%;
 }
 
 #main3{
