@@ -116,7 +116,7 @@ different background color for the even content div elements. */
 	text-transform: uppercase;
 	color: #EAF2F8;
 	margin-top: 200px;
-	margin-left: 10%;
+	margin-right: 0;
 }
 
 #main3 h1{
@@ -129,7 +129,7 @@ different background color for the even content div elements. */
 	padding: 0px;
 	box-sizing: border-box;
 	margin-top: 135px;
-	margin-left: 5%;
+	margin-left: 0;
 }
 
 #sidebar3 img{
