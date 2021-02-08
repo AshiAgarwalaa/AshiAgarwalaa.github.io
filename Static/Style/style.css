@@ -38,7 +38,7 @@ and header has child element. #242539;*/
 	position: fixed;
 	top: 0;
 	left: 0;
-	overflow: auto;
+	overflow: hidden;
 }
 
 /* Set the unordered list's width and margin's top, bottom values to 
@@ -116,7 +116,7 @@ different background color for the even content div elements. */
 	text-transform: uppercase;
 	color: #EAF2F8;
 	margin-top: 200px;
-	margin-left: 120px;
+	margin-left: 10%;
 }
 
 #main3 h1{
@@ -129,7 +129,7 @@ different background color for the even content div elements. */
 	padding: 0px;
 	box-sizing: border-box;
 	margin-top: 135px;
-	margin-left: 38px;
+	margin-left: 5%;
 }
 
 #sidebar3 img{
@@ -282,7 +282,7 @@ font-variant: small-caps;
 }
 
 /* Media Queries */
-@media screen and (max-width: 1000px){
+/*@media screen and (max-width: 1000px){
   #home{background-position:center;}
   #main3{
 	float:none;
@@ -301,4 +301,4 @@ font-variant: small-caps;
   .content{
     padding: 100px 50px;
   }
-}
+}*/
